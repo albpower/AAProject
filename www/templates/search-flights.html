@@ -1,0 +1,46 @@
+<ion-view title="Search Flights">
+
+<ion-content class="padding has-tabs-top">
+
+    <div class="padding-top padding-bottom">    
+      <label class="item item-input item-select">
+        <div class="input-label">
+          <i class="material-icons">flight_takeoff</i> From:
+        </div>
+        <select autofocus>
+          <option selected> Skopje (SKP)</option>
+          <option>Munich Memmingen (MMN) </option>
+          <option>Basel-Mulhouse (BMH)</option>
+        </select>
+      </label>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          <i class="material-icons">flight_land</i> To:
+        </div>
+        <select>
+          <option> Skopje (SKP)</option>
+          <option selected>Munich Memmingen (MMN) </option>
+          <option>Basel-Mulhouse (BMH)</option>
+        </select>
+      </label>
+
+      <label class="item item-input">
+        <span class="input-label"><i class="material-icons">event</i>  Depart:</span>
+        <input type="date">
+      </label>
+       <label class="item item-input" ng-show="roundtrip">
+        <span class="input-label"><i class="material-icons">event</i>  Return:</span>
+        <input type="date">
+      </label><br>
+      <div class="button-bar">
+          <span class="button" ng-click="roundtrip=true">Round-Trip</span>
+          <span class="button" ng-click="roundtrip=false">One Way</span>
+      </div>
+      <button class="button button-block button-assertive">Search</button>
+
+    </div>
+
+</ion-content>
+
+</ion-view>

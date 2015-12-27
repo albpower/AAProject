@@ -1,0 +1,41 @@
+<ion-view title="Search Hotels">
+
+<ion-content class="padding has-tabs-top">
+
+    <div class="padding-top padding-bottom">    
+      <label class="item item-input">
+        <div class="input-label">
+          <i class="material-icons">room</i> Location:
+        </div>
+        <input type="text" autofocus>
+      </label>
+
+      <label class="item item-input" ng-show="diffdropOff">
+        <div class="input-label">
+          <i class="material-icons">room</i> 2nd Location:
+        </div>
+        <input type="text">
+      </label>
+
+      <h5 class="padding-left padding-right padding-top">Start date & time</h5>
+      <label class="item item-input">
+        <span class="input-label"><i class="material-icons">event</i>  Depart:</span>
+        <input type="date">
+      </label>
+
+       <label class="item item-input">
+        <span class="input-label"><i class="material-icons">alarm</i>  Return:</span>
+        <input type="time">
+      </label><br>
+
+      <div class="button-bar">
+          <span class="button" ng-click="diffdropOff=false">Same drop-off</span>
+          <span class="button" ng-click="diffdropOff=true">Different drop-off</span>
+      </div>
+      <button class="button button-block button-assertive">Search</button>
+
+    </div>
+
+
+</ion-content>
+</ion-view>

@@ -1,0 +1,36 @@
+<!--
+<ion-tabs class="tabs-icon-top tabs-positive">
+
+            <ion-tab title="Home" icon="ion-home" ui-sref="tabs.home">
+                <ion-nav-view name="home-tab"></ion-nav-view>
+            </ion-tab>
+
+            <ion-tab title="About" icon="ion-ios7-information" ui-sref="tabs.about.page1">
+                <ion-nav-view name="about-tab"></ion-nav-view>
+            </ion-tab>
+
+        </ion-tabs>
+-->
+        
+<ion-tabs class="tabs-icon-top">
+    <ion-tab title="Home" class="positive" icon="ion-home" ui-sref="tabs.home">
+        <ion-nav-view name="home-tab"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Search" class="positive" icon="ion-search" ui-sref="tabs.search.flights">
+        <ion-nav-view name="search-tab"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Flights tracker"  class="positive" icon="ion-ios-navigate" >
+        <ion-nav-view name=""></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="My trips"  class="positive" icon="ion-ios-book" >
+        <ion-nav-view name=""></ion-nav-view>
+    </ion-tab>
+    
+    <!-- Extra tabs hidden -->
+    <ion-tab title="Search cars" class="tabs tabs-item-hide" ui-sref="tabs.search.cars">
+        <ion-nav-view name="search-tab"></ion-nav-view>
+    </ion-tab>
+    <ion-tab title="Search hotels" class="tabs tabs-item-hide" ui-sref="tabs.search.hotels">
+        <ion-nav-view name="search-tab"></ion-nav-view>
+    </ion-tab>
+</ion-tabs>

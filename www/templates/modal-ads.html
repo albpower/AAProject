@@ -1,0 +1,10 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">Advertisement</h1>
+    </ion-header-bar>
+    <ion-content ng-controller="modalAdsCtrl" ng-init="autoClose();">
+     {{msg}}
+      <img src="https://www.manchesterdigital.com/sites/default/files/AERO_MEXICO_Press.jpg" width="100%"/>
+      <button ng-click="closeAds()"> Close Modal</button>
+    </ion-content>
+  </ion-modal-view>

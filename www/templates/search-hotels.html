@@ -1,0 +1,49 @@
+<ion-view title="Search Hotels">
+
+<ion-content class="padding has-tabs-top">
+
+    <div class="padding-top padding-bottom">    
+       <label class="item item-input">
+        <span class="input-label">
+        <i class="material-icons">place</i> Location:</span>
+        <input type="text" autofocus>
+      </label>
+
+      <label class="item item-input">
+        <span class="input-label"><i class="material-icons">event</i> Check-in:</span>
+        <input type="date">
+      </label>
+
+       <label class="item item-input" ng-show="roundtrip">
+        <span class="input-label"><i class="material-icons">event</i> Check-out:</span>
+        <input type="date">
+      </label>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          <i class="material-icons">people</i> Guests:
+        </div>
+        <select>
+          <option selected> 1 </option>
+          <option> 2 </option>
+          <option> 3</option>
+        </select>
+      </label>
+
+     <label class="item item-input item-select">
+        <div class="input-label">
+          <i class="material-icons">room</i> Rooms:
+        </div>
+        <select>
+          <option selected> 1 </option>
+          <option> 2 </option>
+          <option> 3</option>
+        </select>
+      </label>
+
+      <button class="button button-block button-assertive">Search</button>
+
+    </div>
+    
+</ion-content>
+</ion-view>

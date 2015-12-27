@@ -1,0 +1,54 @@
+<ion-view view-title="Home">
+<div class="bar bar-header">
+  <img src="img/adaba-v3.png" style="height:44px; margin:-6px auto"/>
+</div>
+  <ion-content class="has-header">
+     <ion-list>
+         <ion-item ui-sref="tabs.search.flights">
+         <i class="material-icons md-32 assertive" style="transform:rotateZ(60deg)">local_airport</i>   
+            <div>
+                <h2 class="listCaption">Flights</h2>
+                <span>Get your best flight.</span>
+            </div>
+         </ion-item>
+         <ion-item ui-sref="tabs.search.hotels">
+             <i class="material-icons md-32 assertive">local_hotel</i>  
+             <div>
+                <h2 class="listCaption">Hotels</h2>
+                <span>Find your perfect room.</span>
+            </div>
+            </ion-item>
+         <ion-item ui-sref="tabs.search.cars">
+             <i class="material-icons md-32 assertive">directions_car</i>  
+            <div>
+                <h2 class="listCaption">Car rentals</h2>
+                <span>Find a car fast.</span>
+            </div>
+         </ion-item>
+         <ion-item ng-click="goToCars()">
+             <i class="material-icons md-32 assertive">local_taxi</i>  
+            <div>
+                <h2 class="listCaption">Taxi</h2>
+                <span>Find local taxi.</span>
+            </div>
+         </ion-item>
+         <ion-item ng-click="goToCars()">
+             <i class="material-icons md-32 assertive">directions_bus</i>  
+            <div>
+                <h2 class="listCaption">Buses/coaches</h2>
+                <span>Find local transport deals</span>
+            </div>
+         </ion-item>
+         <ion-item ng-click="goToCars()">
+             <i class="material-icons md-32 assertive">card_travel</i>  
+            <div>
+                <h2 class="listCaption">Holidays</h2>
+                <span></span>
+            </div>
+         </ion-item>
+         </div>
+         </ion-item>
+     </ion-list>
+   </ion-content>
+   
+</ion-view>

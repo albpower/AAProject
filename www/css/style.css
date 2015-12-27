@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+
+/*
+.list a.item{display: flex; align-items: center; border: solid 1px #ddd; max-height: 54px; }
+.listCaption {font-size:18px;}
+
+.input-label{display: flex;}
+*/
+
+.item{display: flex}
+a.item-content {display: flex}
+a {text-decoration: none; color:inherit;}
+
+
+.assertive, a.assertive{color:#d40d4e}
+.button.button-assertive{background-color:#d40d4e; border-color: #d40d4e }
